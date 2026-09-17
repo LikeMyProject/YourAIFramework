@@ -1,0 +1,25 @@
+{
+    "name": "YourAI.Editor",
+    "rootNamespace": "YourAI.Editor",
+    "references": [
+        "YourAI.Core",
+        "YourAI.Transport",
+        "YourAI.Providers",
+        "YourAI.Memory",
+        "YourAI.Grounding",
+        "YourAI.Agent",
+        "YourAI.Presentation",
+        "YourAI.UnityRuntime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
