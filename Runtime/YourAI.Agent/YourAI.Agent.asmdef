@@ -1,0 +1,17 @@
+{
+    "name": "YourAI.Agent",
+    "rootNamespace": "YourAI.Agent",
+    "references": [
+        "YourAI.Core",
+        "YourAI.Grounding"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
