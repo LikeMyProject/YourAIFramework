@@ -1,0 +1,41 @@
+{
+  "name": "com.your.ai.framework",
+  "version": "0.1.11",
+  "displayName": "Your AI Framework",
+  "description": "A general-purpose Unity framework with LLM-driven AI as an optional module. The base layer is fully usable without any API key; the AI layer is an add-on, never a prerequisite.",
+  "unity": "6000.5",
+  "dependencies": {},
+  "keywords": [
+    "framework",
+    "unity-framework",
+    "game-framework",
+    "ai",
+    "llm",
+    "agent",
+    "streaming",
+    "hot-update",
+    "localization"
+  ],
+  "author": {
+    "name": "YourAI"
+  },
+  "changelogUrl": "",
+  "documentationUrl": "",
+  "samples": [
+    {
+      "displayName": "Module Demos (start here)",
+      "description": "23 self-contained demos, one per module: module center, event bus, pools, save, procedure flow, data tables, assets, localization, UI panels, audio, entities, networking, SDK hub, diagnostics, hot-update, stats, address catalog, the script layer (Lua/XLua hot-patching for IL2CPP), the config-driven skill system and AI. Zero asset dependencies - import, add DemosHub to any scene, press Play.",
+      "path": "Samples~/ModuleDemos"
+    },
+    {
+      "displayName": "Minimal Chat",
+      "description": "One request, one streaming response, printed to the console.",
+      "path": "Samples~/MinimalChat"
+    },
+    {
+      "displayName": "Chat UI",
+      "description": "A UI Toolkit chat window over AgentViewBehaviour and AgentViewModel, with streaming text, phase display and a failure banner.",
+      "path": "Samples~/ChatUiSample"
+    }
+  ]
+}

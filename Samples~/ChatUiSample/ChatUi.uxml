@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements"
+         xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+         editor-extension-mode="False"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <!--
+        Chat UI for AgentViewBehaviour.
+
+        The behaviour looks its elements up by NAME, so these six names are the
+        contract: log, status, text, error, input, send. Assign this asset to the
+        PanelRenderer on the same GameObject as the behaviour, add styleSheet
+        ChatUi.uss to the root, and the code-built fallback is skipped.
+    -->
+
+    <ui:VisualElement name="chat-root" style="flex-grow: 1; padding: 8;">
+        <ui:Label name="status" text="待命" style="unity-font-style: bold;" />
+
+        <ui:ScrollView name="log" style="flex-grow: 1;" />
+
+        <ui:Label name="text" text="" style="white-space: normal; margin-bottom: 4;" />
+
+        <ui:Label name="error" text="" style="white-space: normal; margin-bottom: 4; display: none;" />
+
+        <ui:VisualElement name="input-row" style="flex-direction: row;">
+            <ui:TextField name="input" style="flex-grow: 1;" />
+            <ui:Button name="send" text="送出" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+</ui:UXML>
