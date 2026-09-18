@@ -1,0 +1,18 @@
+{
+    "name": "YourAI.Presentation",
+    "rootNamespace": "YourAI.Presentation",
+    "references": [
+        "YourAI.Core",
+        "YourAI.Agent",
+        "YourFramework.Foundation"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}
