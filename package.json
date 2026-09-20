@@ -1,0 +1,22 @@
+{
+  "name": "com.your.ai.game-demos",
+  "version": "0.1.1",
+  "displayName": "Your AI Framework Game Demos",
+  "description": "可玩游戏演示扩展包：把框架模块拼成完整游戏的实战教程。含贪吃蛇（AI 操控可现场围观大模型开车）与勇者试炼场 RPG（第三人称大世界、打怪升级、魔兽式交互切场景），全部程序化生成、零美术资产。",
+  "unity": "6000.5",
+  "dependencies": {
+    "com.your.ai.framework": "0.1.13"
+  },
+  "samples": [
+    {
+      "displayName": "贪吃蛇 Snake Game",
+      "description": "键盘操控 + AI 操控（deepseek-chat 实时决策），UGUI 面板，最高分存档",
+      "path": "Samples~/SnakeGame"
+    },
+    {
+      "displayName": "勇者试炼场 RPG Game",
+      "description": "不用 AI 层的 RPG：打怪升级、背包、装备武器、角色属性，档案跨局存档",
+      "path": "Samples~/RpgGame"
+    }
+  ]
+}

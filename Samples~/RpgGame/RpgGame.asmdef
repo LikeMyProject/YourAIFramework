@@ -1,0 +1,17 @@
+{
+    "name": "YourAIFramework.RpgGame",
+    "rootNamespace": "YourAIFramework.RpgGame",
+    "references": [
+        "YourFramework.Foundation",
+        "YourFramework.UnityRuntime",
+        "YourAI.Core",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "noEngineReferences": false
+}
