@@ -1,0 +1,24 @@
+{
+    "name": "YourAI.UnityRuntime",
+    "rootNamespace": "YourAI.UnityRuntime",
+    "references": [
+        "YourAI.Core",
+        "YourAI.Transport",
+        "YourAI.Providers",
+        "YourAI.Memory",
+        "YourAI.Grounding",
+        "YourAI.Agent",
+        "YourAI.Presentation",
+        "YourFramework.Foundation",
+        "YourFramework.UnityRuntime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

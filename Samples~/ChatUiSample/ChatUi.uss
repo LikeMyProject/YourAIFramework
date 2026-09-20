@@ -1,0 +1,39 @@
+/* Chat UI styling for the ChatUiSample. Attached to the UXML root, or to the
+   UIDocument's panel settings, this is presentation only -- names and structure
+   are the contract, classes here are free to change. */
+
+.chat-root {
+    background-color: rgb(31, 31, 36);
+}
+
+#status {
+    color: rgb(153, 178, 217);
+    margin-bottom: 4;
+}
+
+#log .yourai-entry {
+    white-space: normal;
+    margin-bottom: 2;
+    color: rgb(230, 230, 230);
+}
+
+#text {
+    white-space: normal;
+    color: rgb(200, 200, 200);
+    border-top-width: 1;
+    border-top-color: rgb(60, 60, 66);
+    padding-top: 4;
+}
+
+#error {
+    white-space: normal;
+    color: rgb(229, 115, 102);
+}
+
+#input-row {
+    margin-top: 4;
+}
+
+#send {
+    margin-left: 4;
+}
